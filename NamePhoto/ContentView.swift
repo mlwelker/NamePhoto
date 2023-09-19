@@ -12,9 +12,9 @@ struct ContentView: View {
             }
         }
         .padding()
-        .sheet(isPresented: $showingImagePicker, content: {
+        .sheet(isPresented: $showingImagePicker) {
             ImagePicker()
-        })
+        }
     }
 }
 
