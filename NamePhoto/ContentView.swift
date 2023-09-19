@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  NamePhoto
-//
-//  Created by Michael Welker on 2023-09-19.
-//
 
 import SwiftUI
 
