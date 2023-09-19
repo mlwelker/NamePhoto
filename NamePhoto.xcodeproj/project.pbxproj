@@ -11,6 +11,7 @@
 		A27833B92ABA3E660077610D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27833B82ABA3E660077610D /* ContentView.swift */; };
 		A27833BB2ABA3E670077610D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27833BA2ABA3E670077610D /* Assets.xcassets */; };
 		A27833BE2ABA3E670077610D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27833BD2ABA3E670077610D /* Preview Assets.xcassets */; };
+		A27833C52ABA466A0077610D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27833C42ABA466A0077610D /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A27833B82ABA3E660077610D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A27833BA2ABA3E670077610D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A27833BD2ABA3E670077610D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A27833C42ABA466A0077610D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A27833B62ABA3E660077610D /* NamePhotoApp.swift */,
 				A27833B82ABA3E660077610D /* ContentView.swift */,
+				A27833C42ABA466A0077610D /* ImagePicker.swift */,
 				A27833BA2ABA3E670077610D /* Assets.xcassets */,
 				A27833BC2ABA3E670077610D /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A27833C52ABA466A0077610D /* ImagePicker.swift in Sources */,
 				A27833B92ABA3E660077610D /* ContentView.swift in Sources */,
 				A27833B72ABA3E660077610D /* NamePhotoApp.swift in Sources */,
 			);
