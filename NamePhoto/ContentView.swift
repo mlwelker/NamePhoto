@@ -6,8 +6,13 @@ struct ContentView: View {
     @State private var inputImage: UIImage?
     @State private var showingImagePicker = false
     @State private var showingNameImage = false
+    
     @State private var imageName: String = ""
-    @State private var namesList: [String] = ["item 1", "AAA", "placeholder"]
+    @State private var namedPhotos: [NamedPhoto] = [
+        NamedPhoto(id: UUID(), name: "A name"),
+        NamedPhoto(id: UUID(), name: "B name"),
+        NamedPhoto(id: UUID(), name: "C name"),
+    ]
     
     var body: some View {
         NavigationView {
@@ -24,7 +29,7 @@ struct ContentView: View {
                         
                         let imageSaver = ImageSaver()
                         imageSaver.writeToPhotoAlbum(image: inputImage)
-                        namesList.append(imageName)
+                        namedPhotos.append(NamedPhoto(id: UUID(), name: imageName))
                         imageName = ""
                         showingNameImage = false
                     }
@@ -36,14 +41,14 @@ struct ContentView: View {
                     
                     NavigationView {
                         List {
-                            ForEach(namesList.sorted(), id: \.self) { name in
+                            ForEach(namedPhotos.sorted()) { photo in
                                 NavigationLink {
                                     HStack {
                                         // TODO small image goes here
-                                        Text(name)
+                                        Text(photo.name)
                                     }
                                 } label: {
-                                    Text(name)
+                                    Text(photo.name)
                                 }
                             }
                         }
