@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A249FD4E2ABB86F100F08E20 /* NamedPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A249FD4D2ABB86F100F08E20 /* NamedPhoto.swift */; };
+		A249FD502ABBB71B00F08E20 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A249FD4F2ABBB71B00F08E20 /* FileManager-DocumentsDirectory.swift */; };
 		A27833B72ABA3E660077610D /* NamePhotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27833B62ABA3E660077610D /* NamePhotoApp.swift */; };
 		A27833B92ABA3E660077610D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27833B82ABA3E660077610D /* ContentView.swift */; };
 		A27833BB2ABA3E670077610D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27833BA2ABA3E670077610D /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		A249FD4D2ABB86F100F08E20 /* NamedPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedPhoto.swift; sourceTree = "<group>"; };
+		A249FD4F2ABBB71B00F08E20 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 		A27833B32ABA3E660077610D /* NamePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NamePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27833B62ABA3E660077610D /* NamePhotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamePhotoApp.swift; sourceTree = "<group>"; };
 		A27833B82ABA3E660077610D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				A27833B62ABA3E660077610D /* NamePhotoApp.swift */,
 				A27833B82ABA3E660077610D /* ContentView.swift */,
+				A249FD4F2ABBB71B00F08E20 /* FileManager-DocumentsDirectory.swift */,
 				A249FD4D2ABB86F100F08E20 /* NamedPhoto.swift */,
 				A27833C62ABAA8040077610D /* ImageSaver.swift */,
 				A27833C42ABA466A0077610D /* ImagePicker.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A249FD502ABBB71B00F08E20 /* FileManager-DocumentsDirectory.swift in Sources */,
 				A27833C52ABA466A0077610D /* ImagePicker.swift in Sources */,
 				A27833B92ABA3E660077610D /* ContentView.swift in Sources */,
 				A27833B72ABA3E660077610D /* NamePhotoApp.swift in Sources */,
